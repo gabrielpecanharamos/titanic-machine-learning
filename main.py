@@ -50,7 +50,7 @@ pipeline_categorico = Pipeline(steps=[
 
     ('onehot', OneHotEncoder(handle_unknown='ignore'))])
 
-# Agrupamento dos pipelines de pré processamento
+# Agrupamento dos pipelines de pré-processamento
 pre_processamento = ColumnTransformer(transformers=[
 
     ('num', pipeline_numerico, colunas_numericas),
