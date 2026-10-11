@@ -1,4 +1,4 @@
-# titanic-machine-learning
+# Titanic-machine-learning
 
 Language / Idioma: [Português](#português) | [English](#english)
 
