@@ -6,7 +6,7 @@ Este repositório contém o código e a documentação do projeto desenvolvido p
 
 #### Desempenho do Modelo
 
-- Acurácia na Validação Local (80/20): 81,0%
+- Acurácia na Validação Local (80/20): 81,01%
 - Pontuação Oficial no Kaggle (Public Score): 0,76315
 
 #### Estrutura do Pipeline
