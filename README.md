@@ -1,4 +1,4 @@
-# Titanic-machine-learning
+# titanic-machine-learning
 
 ### Pipeline de Machine Learning e Classificação
 
