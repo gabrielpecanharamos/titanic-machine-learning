@@ -1,6 +1,5 @@
 # titanic-machine-learning
 
-
 Este repositório contém o código e a documentação do projeto desenvolvido para o desafio do Titanic no Kaggle. 
 
 O objetivo foi estruturar um fluxo contínuo de dados e modelagem preditiva utilizando a biblioteca Scikit-Learn.
