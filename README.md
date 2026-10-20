@@ -1,6 +1,5 @@
 # titanic-machine-learning
 
-### Pipeline de Machine Learning e Classificação
 
 Este repositório contém o código e a documentação do projeto desenvolvido para o desafio do Titanic no Kaggle. 
 
