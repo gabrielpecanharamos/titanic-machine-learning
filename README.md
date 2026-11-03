@@ -10,6 +10,13 @@ O objetivo foi estruturar um fluxo contínuo de dados e modelagem preditiva util
 - **Manipulação de Dados:** Pandas, NumPy
 - **Machine Learning & Pipeline:** Scikit-Learn
 
+## Fonte dos Dados
+  
+Os arquivos de dados (`.csv`) não estão versionados neste repositório, para rodar localmente:
+
+1. Baixe os arquivos `train.csv` e `test.csv` diretamente na página oficial da [Competição do Titanic no Kaggle](https://www.kaggle.com/c/titanic/data).
+2. Salve os arquivos diretamente na raiz do projeto.
+
 ## Estrutura do Pipeline
 
 O tratamento dos dados e o treinamento do modelo foram centralizados em um pipeline para automatizar e padronizar todas as etapas:
@@ -25,14 +32,7 @@ O tratamento dos dados e o treinamento do modelo foram centralizados em um pipel
 3. Modelo Preditivo:
    - `LogisticRegression` para a classificação binária de sobrevivência.
 
-#### Desempenho do Modelo
+## Desempenho do Modelo
 
 - Acurácia na Validação Local (80/20): 81,01%
 - Pontuação Oficial no Kaggle: 0,76315
-
-#### Fonte dos Dados
-  
-Os arquivos de dados (`.csv`) não estão versionados neste repositório, para rodar localmente:
-
-1. Baixe os arquivos `train.csv` e `test.csv` diretamente na página oficial da [Competição do Titanic no Kaggle](https://www.kaggle.com/c/titanic/data).
-2. Salve os arquivos dentro de uma pasta chamada `data/` na raiz do projeto.
