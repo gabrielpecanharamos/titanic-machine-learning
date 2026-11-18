@@ -65,10 +65,14 @@ pipeline_final = Pipeline(steps=[
     ('pre_processamento', pre_processamento),
     ('modelo', LogisticRegression())])
 
+# Avaliação da acurácia com 80% treino e 20% teste
 pipeline_final.fit(X_treino, y_treino)
 
 predito = pipeline_final.predict(X_teste)
 print(f"Acurácia: {accuracy_score(y_teste, predito):.2%}\n")
+
+# Aprendizado com 100% treino para submissão
+pipeline_final.fit(X, y)
 
 # Seleção das colunas de interesse no conjunto de teste para submissão
 X_submissao = df_teste[colunas_numericas + colunas_categoricas]

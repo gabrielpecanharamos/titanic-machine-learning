@@ -35,4 +35,4 @@ O tratamento dos dados e o treinamento do modelo foram centralizados em um pipel
 ## Desempenho do Modelo
 
 - Acurácia na Validação Local (80/20): 81,01%
-- Pontuação Oficial no Kaggle: 0,76315
+- Pontuação Oficial no Kaggle: 0,76555
